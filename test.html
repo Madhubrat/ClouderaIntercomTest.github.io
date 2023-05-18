@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Test Intercom</title>
+
+  
+
+  <!-- Add your CSS styles here -->
+
+  <style>
+
+    / Your CSS styles go here /
+
+  </style>
+
+  
+
+  <!-- Add your JavaScript snippet here -->
+
+<script>
+
+  window.intercomSettings = {
+
+    api_base: "https://api-iam.intercom.io",
+
+    app_id: "vnoe6sey"
+
+  };
+
+</script>
+
+<script>
+
+// We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/vnoe6sey'
+
+(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/vnoe6sey';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+
+</script>
+
+</head>
+
+<body>
+
+  <!-- Add the rest of your HTML content here -->
+
+  <header>
+
+    <!-- Your header content goes here -->
+
+    <h1>This is where we will showcase the capabilities of Intercom as a tool</h1>
+
+  </header>
+
+  
+
+  <main>
+
+    <!-- Your main content goes here -->
+
+    <p>This is the main content of the website.</p>
+
+  </main>
+
+  
+
+  <!-- Add your JavaScript code that interacts with the HTML here -->
+
+  <script>
+
+    // Example: Changing the header text dynamically
+
+    const header = document.querySelector('header h1');
+
+    header.textContent = 'Hello, Clouderans!';
+
+  </script>
+
+</body>
+
+</html>
